@@ -1,13 +1,27 @@
 import random
 
+## Tokens: "+", "-", "=", "abs", "(", ")", "NAME"
+
+## Regras
+#   S -> R = E
+#   E -> L - T
+#   T -> (F)
+#   F -> F1 + L
+#   L -> num
+#   R -> id
+
+## Expressões regulares
+# [0-9] + [a-z]
+
 dealer_cartas = []
 
 jogador_cartas = []
 
 while len(dealer_cartas) != 2:
-    dealer_cartas.append(random.randint(1, 11))
+    dealer_cartas.append(random.randint(2, 11))
     if len(dealer_cartas) == 2:
         print("Dealer tem ", dealer_cartas)
+        
 
 if sum(dealer_cartas) == 21:
     print("o Dealer tem 21 e ganhou!")
@@ -17,8 +31,8 @@ elif sum(dealer_cartas) > 21:
 while sum(jogador_cartas) < 21:
     acao_tomada = str(input("Voce quer parar, ou continuar?  "))
     if acao_tomada == "continuar":
-        jogador_cartas.append(random.randint(1, 11))
-        print("Voce agora tem um total de " + str(sum(jogador_cartas)) + "destas cartas ", jogador_cartas)
+        jogador_cartas.append(random.randint(2, 11))
+        print("Voce agora tem um total de " + str(sum(jogador_cartas)) + " destas cartas ", jogador_cartas)
     else:
         print("O dealer tem um total de " + str(sum(dealer_cartas)) + "com " , dealer_cartas)
         print("Voce tem um total de " + str(sum(jogador_cartas)) + "com", jogador_cartas)
