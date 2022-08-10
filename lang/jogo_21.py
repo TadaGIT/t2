@@ -16,12 +16,10 @@ import random
 dealer_cartas = []
 
 jogador_cartas = []
-
-while len(dealer_cartas) != 2:
+while sum(dealer_cartas) < 17:
     dealer_cartas.append(random.randint(2, 11))
-    if len(dealer_cartas) == 2:
-        print("Dealer tem ", dealer_cartas)
         
+print("Dealer tem ", dealer_cartas)       
 
 if sum(dealer_cartas) == 21:
     print("o Dealer tem 21 e ganhou!")
@@ -34,9 +32,13 @@ while sum(jogador_cartas) < 21:
         jogador_cartas.append(random.randint(2, 11))
         print("Voce agora tem um total de " + str(sum(jogador_cartas)) + " destas cartas ", jogador_cartas)
     else:
-        print("O dealer tem um total de " + str(sum(dealer_cartas)) + "com " , dealer_cartas)
-        print("Voce tem um total de " + str(sum(jogador_cartas)) + "com", jogador_cartas)
+        print("O dealer tem um total de " + str(sum(dealer_cartas)) + " com " , dealer_cartas)
+        print("Voce tem um total de " + str(sum(jogador_cartas)) + " com", jogador_cartas)
+        if sum(dealer_cartas) > 21:
+                print("Dealer estorou!!! Você ganhou!!!")
+                break
         if sum(dealer_cartas) > sum(jogador_cartas):
+            
             print("Dealer ganhou!!!")
         else:
             print("Voce ganhou!!!") 
