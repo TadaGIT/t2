@@ -6,7 +6,7 @@ Exemplo de um pequeno compilador feito em Java para jogar 21/blackjack.
 
 ## Analisador Léxico
 
-Tokens Reconhecidos: Identificadores := LETRA (LETRA | DIGITO)* Numeros := DIGITO+ (. DIGITO) Operadores := | = | + | - 
+Tokens Reconhecidos: Identificadores := LETRA (LETRA)* Numeros := DIGITO+ (. DIGITO) Operadores := | = | + | - 
 
 Autômato de reconhecimento
 
@@ -38,3 +38,7 @@ Dado pelas regras abaixo
  R -> id
  
  op -> =
+
+
+Analisador Lexico baseado: 
+https://github.com/professorisidro/AnalisadorLexico
