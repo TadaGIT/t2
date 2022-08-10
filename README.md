@@ -26,9 +26,15 @@ Vt = id, num, + , -
 Dado pelas regras abaixo
 
  S -> R op E
+ 
  E -> L - T
+ 
  T -> (F)
+ 
  F -> F1 + L
+ 
  L -> num
+ 
  R -> id
+ 
  op -> =
