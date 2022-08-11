@@ -44,3 +44,6 @@ Dado pelas regras abaixo  ----------- | -----------     Regra semântica
 
 Analisador Lexico baseado para fazer as produções
 https://github.com/professorisidro/AnalisadorLexico
+
+Para criar o analisador Lexico, foi utilizado como base o regex em c
+https://thobias.org/doc/er_c.html
