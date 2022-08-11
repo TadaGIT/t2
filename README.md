@@ -17,7 +17,7 @@ Autômato para entender a lógica do programa a qual lê o que o usuário digita
 
 ## Analisador Sintático 
 
-Dada a gramática
+Dada a gramática 
 
 G = (Vn, Vt, P, S)
 
@@ -25,21 +25,21 @@ Vn = S, R, OP, E, L, T, F
 
 Vt = id, num, + , - 
 
-Dado pelas regras abaixo
+Dado pelas regras abaixo             |      Regra semântica
 
- S -> R op E
+ S -> R op E                              resultado := abs(expr)
+  
+ E -> L - T                               expr := 21 - sum             
  
- E -> L - T
+ T -> (F)                                 sum := "("||F.val||")"        
  
- T -> (F)
+ F -> F1 + L                              F := F1.val + L.val       
  
- F -> F1 + L
+ L -> num                                 L := num.val                   # num.val é carregado de cartas.json
  
- L -> num
+ R -> id                                  R := id.cod
  
- R -> id
- 
- op -> =
+ op -> =                                  op := =
 
 
 Analisador Lexico baseado para fazer as produções
