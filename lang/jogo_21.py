@@ -1,26 +1,15 @@
 import random
 
-## Definições regulares 
-# id : [a-z]
-# num : [0-9]
-
-## Tokens: 
-# "+", 
-# "-", 
-# "=", 
-# "abs", 
-# "(",
-# ")", 
-# "NAME"
+## Tokens: "+", "-", "=", "abs", "(", ")", "NAME"
 
 ## Regras
-#   S -> R = E
+#   S -> R op E
 #   E -> L - T
 #   T -> (F)
 #   F -> F1 + L
 #   L -> num
 #   R -> id
-
+#   op -> =
 ## Expressões regulares
 # [0-9] + [a-z]
 
