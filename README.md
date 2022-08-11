@@ -21,25 +21,25 @@ Dada a gramática
 
 G = (Vn, Vt, P, S)
 
-Vn = S, R, OP, E, L, T, F
+Vn = S, R, op, E, L, T, F
 
 Vt = id, num, + , - 
 
-Dado pelas regras abaixo             |      Regra semântica
+Dado pelas regras abaixo  ----------- | -----------     Regra semântica
 
- S -> R op E                              resultado := abs(expr)
+ S -> R op E  -----------------------  resultado := abs(expr)
   
- E -> L - T                               expr := 21 - sum             
+ E -> L - T    ----------------------- expr := 21 - sum             
  
- T -> (F)                                 sum := "("||F.val||")"        
+ T -> (F)      ----------------------- sum := "("||F.val||")"        
  
- F -> F1 + L                              F := F1.val + L.val       
+ F -> F1 + L    ----------------------- F := F1.val + L.val       
  
- L -> num                                 L := num.val                   # num.val é carregado de cartas.json
+ L -> num     ----------------------- L := num.val                   # num.val é carregado de cartas.json
  
- R -> id                                  R := id.cod
+ R -> id      ----------------------- R := id.cod
  
- op -> =                                  op := =
+ op -> =       ----------------------- op := =
 
 
 Analisador Lexico baseado para fazer as produções
