@@ -8,7 +8,7 @@ Exemplo de um pequeno compilador feito em Java para jogar 21/blackjack.
 
 Tokens Reconhecidos: Identificadores := LETRA (LETRA)* Numeros := DIGITO+ (. DIGITO) Operadores := | = | + | - 
 
-Autômato para entender a lógica do programa
+Autômato para entender a lógica do programa a qual lê o que o usuário digita
 
 ![image](https://user-images.githubusercontent.com/77121121/184040441-1fcb49b6-3924-428b-afab-f70da2785aa7.png)
 
