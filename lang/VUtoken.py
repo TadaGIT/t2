@@ -1,10 +1,5 @@
 import random, os, time
 
-NAMES = [
-  "Jogador",
-  "Dealer"
-]
-
 CARTAS = [
   "11",
   "2",
@@ -20,3 +15,5 @@ CARTAS = [
   "10",
   "10"
 ]
+
+# https://github.com/professorisidro/AnalisadorLexico

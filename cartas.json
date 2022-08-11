@@ -1,0 +1,273 @@
+[
+    {
+        "tipo": "ESPADA",
+        "numero": "ÁS",
+        "valor": 11
+    },
+    {
+        "tipo":"ESPADA",
+        "numero": "REI",
+        "valor": 10
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "DAMA",
+        "valor": 10
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "VALETE",
+        "valor": 10
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "10",
+        "valor": 10
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "9",
+        "valor": 9
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "8",
+        "valor": 8
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "7",
+        "valor": 7
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "6",
+        "valor": 6
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "5",
+        "valor": 5
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "4",
+        "valor": 4
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "3",
+        "valor": 3
+    },
+    {
+        "tipo": "ESPADA",
+        "numero": "2",
+        "valor": 2
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "AS",
+        "valor": 11
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "REI",
+        "valor": 10
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "DAMA",
+        "valor": 10
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "VALETE",
+        "valor": 10
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "10",
+        "valor": 10
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "9",
+        "valor": 9
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "8",
+        "valor": 8
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "7",
+        "valor": 7
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "6",
+        "valor": 6
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "5",
+        "valor": 5
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "4",
+        "valor": 4
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "3",
+        "valor": 3
+    },
+    {
+        "tipo": "OUROS",
+        "numero": "2",
+        "valor": 2
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "AS",
+        "valor": 11
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "REI",
+        "valor": 10
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "DAMA",
+        "valor": 10
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "VALETE",
+        "valor": 10
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "10",
+        "valor": 10
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "9",
+        "valor": 9
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "8",
+        "valor": 8
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "7",
+        "valor": 7
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "6",
+        "valor": 6
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "5",
+        "valor": 5
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "4",
+        "valor": 4
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "3",
+        "valor": 3
+    },
+    {
+        "tipo": "PAUS",
+        "numero": "2",
+        "valor": 2
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "AS",
+        "valor": 11
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "REI",
+        "valor": 10
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "DAMA",
+        "valor": 10
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "VALETE",
+        "valor": 10
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "10",
+        "valor": 10
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "9",
+        "valor": 9
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "10",
+        "valor": 10
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "9",
+        "valor": 9
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "8",
+        "valor": 8
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "7",
+        "valor": 7
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "6",
+        "valor": 6
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "5",
+        "valor": 5
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "4",
+        "valor": 4
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "3",
+        "valor": 3
+    },
+    {
+        "tipo": "COPAS",
+        "numero": "2",
+        "valor": 2
+    }
+
+]

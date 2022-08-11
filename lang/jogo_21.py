@@ -1,6 +1,17 @@
 import random
 
-## Tokens: "+", "-", "=", "abs", "(", ")", "NAME"
+## Definições regulares 
+# id : [a-z]
+# num : [0-9]
+
+## Tokens: 
+# "+", 
+# "-", 
+# "=", 
+# "abs", 
+# "(",
+# ")", 
+# "NAME"
 
 ## Regras
 #   S -> R = E
