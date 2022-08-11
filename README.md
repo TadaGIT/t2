@@ -1,8 +1,8 @@
 # t2
 
-# Compilador Java
+# Compilador Python
 
-Exemplo de um pequeno compilador feito em Java para jogar 21/blackjack.
+Exemplo de um pequeno compilador feito em python para jogar 21/blackjack.
 
 ## Analisador Léxico
 
@@ -40,5 +40,5 @@ Dado pelas regras abaixo
  op -> =
 
 
-Analisador Lexico baseado: 
+Analisador Lexico baseado para fazer as produções
 https://github.com/professorisidro/AnalisadorLexico
