@@ -33,13 +33,18 @@ Dado pelas regras abaixo  ----------- | -----------     Regra semântica
  
  T -> (F)      ----------------------- sum := "("||F.val||")"        
  
- F -> F1 + L    ----------------------- F := F1.val + L.val       
+ F -> F1 + L | L ----------------------- F := F1.val + L.val       
  
  L -> num     ----------------------- L := num.val                   # num.val é carregado de cartas.json
  
  R -> id      ----------------------- R := id.cod
  
  op -> =       ----------------------- op := =
+
+É formada a seguinte árvore de produção:
+
+![image](https://user-images.githubusercontent.com/77121121/184262264-fef1dc86-ed7b-43a8-8b4e-443097c981f3.png)
+
 
 
 Analisador Lexico baseado para fazer as produções
